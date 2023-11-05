@@ -11,7 +11,7 @@ public class SpringBootDeploymentApplication {
 
 	@GetMapping("/")
 	public String welcome() {
-		return "Welcome to fist project";
+		return "Welcome to fist project after commit";
 	}
 	
 	public static void main(String[] args) {
