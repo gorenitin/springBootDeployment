@@ -16,7 +16,7 @@ public class SpringBootDeploymentApplication {
 
 	@GetMapping("/hello")
 	public String hello(String name) {
- 		return "hello "+name==null?"User":name;
+ 		return "hello "+(name==null?"User":name);
 	}
  	
 	public static void main(String[] args) {
