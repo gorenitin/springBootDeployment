@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://springbootmysql.database.windows.net:1433;database=springbootmysql;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: jdbc:sqlserver://springbootmysqlserver.database.windows.net:1433;database=springbootmysqlDb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: mysqluser
     password: Anshu@1884
   jpa:

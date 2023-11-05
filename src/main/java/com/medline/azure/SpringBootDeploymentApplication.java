@@ -22,7 +22,7 @@ public class SpringBootDeploymentApplication {
 	
 	@GetMapping("/")
 	public String welcome() {
-		return "Welcome to fist project after commit";
+		return "Welcome to first project after commit";
 	}
 
 	@GetMapping("/hello")
