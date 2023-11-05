@@ -13,7 +13,12 @@ public class SpringBootDeploymentApplication {
 	public String welcome() {
 		return "Welcome to fist project after commit";
 	}
-	
+
+	@GetMapping("/hello")
+	public String hello(String name) {
+ 		return "hello "+name==null?"User":name;
+	}
+ 	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDeploymentApplication.class, args);
 	}
